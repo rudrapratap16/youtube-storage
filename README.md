@@ -123,7 +123,3 @@ This empties both `upload to youtube/temporary/` and `download and decode/tempor
 - Paths, video links, and credential locations are hard-coded in the scripts rather than passed as arguments — edit them directly before each run.
 - Uploaded videos are set to `public` by default; change `privacyStatus` in `upload_2.py` if you'd rather keep them unlisted or private.
 - YouTube's video compression could, in principle, distort QR codes; if decoding fails partway through, try re-uploading at a higher bitrate/resolution or adjusting the QR error-correction level.
-
-## License
-
-No license file is currently included in this repository — add one if you intend for others to reuse this code.
